@@ -93,6 +93,7 @@ td img {
 .table-bottom {
     display: flex;
     height: 93px;
+    border-bottom: 1px solid gray;
 }
 
 .table-bottom img {

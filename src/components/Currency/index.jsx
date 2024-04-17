@@ -46,10 +46,10 @@ export default function Currency() {
                         </div>
                         <div className="table-prices">
                             <p id = 'coin-price'>₹{coin.current_price}</p>
-                            <p><img src={eye} alt="" />+3.59%</p>
+                            <p><img src={eye} alt="" />{coin.price_change_percentage_24h_in_currency.toFixed(3).slice(0, -1)}%</p>
                             <p>₹ 59,555,497M</p>
                         </div>
-                    </div>
+                        </div>
                     ))}
                 </div>
                 
