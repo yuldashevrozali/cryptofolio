@@ -1,8 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /*header style */
 .header-top{
     background-color: #14161A;
     display: flex;
     max-width: 1920px;
+    height: 64px;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -29,10 +36,35 @@
 }
 
 .header-bottom{
-    width: 1920px;
+    max-width: 1920px;
     height: 400px;
     background-image: url(../../assets/bg.png);
 }
+
+.hello h1 {
+    width: 1232px;
+    height: 72px;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    color: #87CEEB;
+    font-weight: 700;
+    line-height: 72px;
+    margin-left: 540px;
+    padding-top: 65px;
+}
+
+
+.header-bottom p{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #A9A9A9;
+    font-weight: 500;
+    line-height: 21.98px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    margin-top: 65px;
+}
+
 /*dropdown style */
 .dropbtn {
     background-color: #14161A;
